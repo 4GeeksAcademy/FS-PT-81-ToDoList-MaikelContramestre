@@ -1,4 +1,5 @@
 body{
+    margin-top: 25pxgit;
     background: grey;
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -6,7 +7,7 @@ body{
   }
 
 .titulo{
-    
+
     display: flex;
     width: 250px;
     margin-left: 100px;
