@@ -1,12 +1,59 @@
+body{
+    background: grey;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
 
-/* 
+.titulo{
+    
+    display: flex;
+    width: 250px;
+    margin-left: 100px;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: rgb(15, 114, 114);
+    box-shadow: 0pc 1pc 1pc 0pc rgb(38, 72, 75);
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+input{
+    margin: 10px;
+    border: none;
+    padding: 5px;
+}
+ul li{
+    list-style: none;
+}
+.fondoBase{
+    border-radius: 10%;
+    box-shadow: 2pc 2pc 2pc 1pc rgb(38, 72, 75);
+    background-color: rgb(65, 109, 109);
+    height: auto;
+    width: 500px;
+    padding: 10px;
+}
 
-*/
+.fondo{
+    background-color: rgb(195, 247, 195);
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: 0pc 1pc 1pc 0pc rgb(38, 72, 75);
+    text-align: left;
+    justify-content: space-between;
+}
+.boton{
+    border-radius: 10px;    
+}
+ 
+  .fa-solid.fa-trash {
+    margin: 3px;
+    display: none;
+    float: right; 
+    color: grey;
+    align-items: baseline;
+  }
+  
+  li:hover .fa-solid.fa-trash {
+    display: inline-block;
+  }
